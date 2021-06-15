@@ -29,10 +29,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7758c55c-1083-4e59-9928-37e65374fd90" name="Default Changelist" comment="abcd">
-      <change afterPath="$PROJECT_DIR$/exam.txt" afterDir="false" />
+    <list default="true" id="7758c55c-1083-4e59-9928-37e65374fd90" name="Default Changelist" comment="numberOfChar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/map.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exam.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/myAlg.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +64,9 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="exam" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="exam" TARGET_NAME="exam" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="exam" RUN_TARGET_NAME="exam">
@@ -95,6 +96,10 @@
       <workItem from="1623741332761" duration="42000" />
       <workItem from="1623741406549" duration="92000" />
       <workItem from="1623741514014" duration="25000" />
+      <workItem from="1623741549033" duration="128000" />
+      <workItem from="1623741725480" duration="448000" />
+      <workItem from="1623742179820" duration="508000" />
+      <workItem from="1623742720895" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="!!!">
       <created>1623726721752</created>
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623741152183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="numberOfChar">
+      <created>1623741604571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623741604571</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="!!!" />
     <MESSAGE value="abcd" />
-    <option name="LAST_COMMIT_MESSAGE" value="abcd" />
+    <MESSAGE value="numberOfChar" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberOfChar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="594" y="335" key="Github.ShareDialog" timestamp="1623726478549">
@@ -142,26 +155,26 @@
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="537" y="136" key="Github.UntrackedFilesDialog/0.25.1440.819@0.25.1440.819" timestamp="1623726491321" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1623727130079">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1623742690189">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1623727130079" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1623727130078">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1623742690189" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1623742690189">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1623727130078" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1623727130077">
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1623742690189" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1623742690189">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1623727130077" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1623727130079">
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1623742690189" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1623742690189">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1623727130079" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1623741172279">
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1623742690189" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1623741610239">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.819@0.25.1440.819" timestamp="1623741172279" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.819@0.25.1440.819" timestamp="1623741610239" />
     <state x="515" y="124" key="svn.repositoryBrowser" timestamp="1623726434380">
       <screen x="0" y="25" width="1440" height="819" />
     </state>

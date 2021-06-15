@@ -1,6 +1,17 @@
 #include <iostream>
+#include <fstream>
+
+
+
+#include <cstdlib>
+#include <time.h>
+
+#include "myAlg.cpp"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!!!!!!" << std::endl;
+    string myText = readFile();
+    alg(myText);
     return 0;
 }

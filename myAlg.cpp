@@ -1,4 +1,5 @@
 #include <map>
+#include <vector>
 
 using namespace std;
 
@@ -41,9 +42,48 @@ int getNumberOfChar(char c){
         }
     }
 }
+
+void alg(string s){
+    char firstChar;
+    char lastChar;
+    int count = 1;
+
+    vector<char> vec;
+    vector<char> vec_tmp;
+    int max = 0;
+
+    bool tmp = false;
+
+    for (int i = 1; i < s.length(); i++) {
+        if(getNumberOfChar(s[i-1]) > getNumberOfChar(s[i])){
+            if (i == 1) vec_tmp.push_back(s[i-1]);
+            vec_tmp.push_back(s[i]);
+            count++;
+        }else{
+            tmp = true;
+            max = count;
+            count = 0;
+            if(vec.size() < vec_tmp.size()) vec = vec_tmp;
+            vec_tmp.clear();
+        }
+
+    }
+
+    if(!tmp){
+        max = count;
+        firstChar = s[0];
+        lastChar = s[s.length()-1];
+    }else{
+        firstChar = vec[0];
+        lastChar = vec[vec.size()-1];
+    }
+
+    cout << "\n" << max << " " << firstChar << " " << lastChar << endl;
+}
+
 string readFile(){
     string myText;
-    ifstream MyReadFile("/Users/sashulyatarasenko/Documents/exam/exam.txt");
+    ifstream MyReadFile("/Users/sashulyatarasenko/git/exam/exam.txt");
     while(getline (MyReadFile, myText)) {}
     MyReadFile.close();
     return myText;
