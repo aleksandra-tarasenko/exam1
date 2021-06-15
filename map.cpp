@@ -31,3 +31,20 @@ map<char, int> my_map = {
         { 'z', 25 }
 };
 
+int getNumberOfChar(char c){
+    map<char, int>::iterator it;
+    for( it = my_map.begin(); it != my_map.end(); it++){
+        if(it->first != c){
+            continue;
+        }else{
+            return it->second;
+        }
+    }
+}
+string readFile(){
+    string myText;
+    ifstream MyReadFile("/Users/sashulyatarasenko/Documents/exam/exam.txt");
+    while(getline (MyReadFile, myText)) {}
+    MyReadFile.close();
+    return myText;
+}
